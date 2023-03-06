@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    background-color: yellowgreen;
+    height: 60px;
+}
+.account-info{
+    display: flex;
+    gap: 35px;
+
+}
+.logo{
+    text-decoration: none;
+    color: inherit;
+}
+.categories{
+    display: none;
+}
+.link{
+    text-decoration: none;
+    margin: 0 1em;
+}
+.link:hover{
+    transform: scale(1.1);
+    color: whitesmoke;
+    transition: all ease-in-out 300ms;
+}
+@media (min-width: 665px) {
+    .categories{
+        display: flex;
+    }
+    .categories-sm{
+        display: none;
+    }
+}
